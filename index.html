@@ -4,23 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usuń subskrypcję</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            font-family: Arial, sans-serif;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 20px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button onclick="unsubscribe()">Usuń subskrypcję</button>
+    <div class="container">
+        <h1>Czy na pewno chcesz usunąć subskrypcję?</h1>
+        <button onclick="unsubscribe()">Usuń subskrypcję</button>
+    </div>
 
     <script>
         function unsubscribe() {
